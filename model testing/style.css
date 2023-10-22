@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+video {
+    transform: scaleX(-1); /* Flip video horizontally for mirror effect */
+}
+
+canvas {
+    display: none;
+}
+
+#status {
+    font-size: 20px;
+    margin-top: 10px;
+}

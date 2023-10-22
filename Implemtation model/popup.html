@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .light {
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            border-radius: 50%;
+            box-shadow: 0 0 10px 5px rgba(255, 0, 0, 0.5);
+            animation: blink 1s infinite alternate;
+        }
+
+        @keyframes blink {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0.2;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="light"></div>
+    </div>
+    
+    
+    <audio controls autoplay loop>
+        <source src="alarm.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
